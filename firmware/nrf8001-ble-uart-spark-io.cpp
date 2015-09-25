@@ -178,3 +178,8 @@ void nRF8001BleUartLoop() {
   aci_loop();
 }
 
+aci_evt_opcode_t currentStatus;
+aci_evt_opcode_t nRF8001BleUartState() {
+  //FIXME: need to implement this
+  return currentStatus;
+}

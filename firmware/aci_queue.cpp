@@ -22,7 +22,10 @@
  /** @file
 @brief Implementation of a circular queue for ACI data
 */
+#ifdef SPARK
 #include <application.h>
+#endif
+
 #include "hal_aci_tl.h"
 #include "aci_queue.h"
 #include "ble_assert.h"

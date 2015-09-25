@@ -149,8 +149,7 @@ void nRF8001BleUartRx(uint8_t *buffer, uint8_t len);
 
 
 
-
-
+aci_evt_opcode_t nRF8001BleUartState();
 
 
 
